@@ -1,0 +1,5 @@
+outs:
+- md5: d25562b616c4860391a965adaa880eb9
+  size: 18338909
+  hash: md5
+  path: df_mflow_test.parquet
