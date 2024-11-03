@@ -1,0 +1,8 @@
+train:
+  test_size: 0.2
+  random_state: 42
+  alpha: 0.1
+
+preprocessing:
+  target: AccountViewingInteraction
+  features: [AverageViewingDuration,EngagementScore,ContentDownloadsPerMonth,MonthlyCharges,AccountAge,ViewingHoursPerWeek,ViewingHoursVariation,BandwidthUsage,AnnualIncome,SupportTicketsPerMonth,UserRating,NetworkLatency,TotalCharges,CommentsOnContent,Age,SocialMediaInteractions,WatchlistSize,WebsiteVisitsPerWeek,PersonalizedRecommendations,Churn]
