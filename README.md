@@ -1,3 +1,9 @@
+# Universidad Galileo
+# Mario Obed Morales Guitz
+## 24006981
+
+---
+
 # **Pipeline de Machine Learning con DVC**
 
 Este repositorio implementa un pipeline reproducible y modular para entrenar, evaluar y versionar modelos de Machine Learning utilizando **DVC (Data Version Control)**. Este enfoque facilita el seguimiento de versiones, la reproducibilidad de experimentos y la colaboración en proyectos de ciencia de datos.
