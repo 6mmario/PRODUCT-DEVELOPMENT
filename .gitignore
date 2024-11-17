@@ -1,6 +1,12 @@
-.dvc/cache/
-.dv/tmp/
-*pkl
+Lab 1/.dvc/cache/
+Lab 1/.dv/tmp/
+Lab 1/*pkl
 __pycache__/
-*joblib
-.dvc/config
+Lab 1/*joblib
+Lab 1/.dvc/config
+
+Lab 2/*pkl
+Lab 2/*.joblib
+Lab 2/.dvc/config
+Lab 2/data/input
+Lab 2/data/output
