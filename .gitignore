@@ -1,3 +1,5 @@
 .dvc/cache/
+.dv/tmp/
 *pkl
 __pycache__/
+*joblib

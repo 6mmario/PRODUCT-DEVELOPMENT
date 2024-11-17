@@ -1,8 +1,28 @@
+# params.yaml
 train:
-  test_size: 0.2
-  random_state: 42
-  alpha: 0.1
+  test_size: 0.2         # Proporción de datos de prueba
+  random_state: 42       # Semilla para reproducibilidad
 
 preprocessing:
-  target: AccountViewingInteraction
-  features: [AverageViewingDuration,EngagementScore,ContentDownloadsPerMonth,MonthlyCharges,AccountAge,ViewingHoursPerWeek,ViewingHoursVariation,BandwidthUsage,AnnualIncome,SupportTicketsPerMonth,UserRating,NetworkLatency,TotalCharges,CommentsOnContent,Age,SocialMediaInteractions,WatchlistSize,WebsiteVisitsPerWeek,PersonalizedRecommendations,Churn]
+  target: Churn
+  features:
+    - AccountViewingInteraction
+    - AverageViewingDuration
+    - EngagementScore
+    - ContentDownloadsPerMonth
+    - MonthlyCharges
+    - AccountAge
+    - ViewingHoursPerWeek
+    - ViewingHoursVariation
+    - BandwidthUsage
+    - AnnualIncome
+    - SupportTicketsPerMonth
+    - UserRating
+    - NetworkLatency
+    - TotalCharges
+    - CommentsOnContent
+    - Age
+    - SocialMediaInteractions
+    - WatchlistSize
+    - WebsiteVisitsPerWeek
+    - PersonalizedRecommendations
