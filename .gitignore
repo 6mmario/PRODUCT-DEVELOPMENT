@@ -11,4 +11,5 @@ Lab 2/.dvc/config
 Lab 2/data/input/processed/*
 Lab 2/data/output/*
 Lab 2/models/*.joblib
-Lab 2/*.envLab 1/.dvc/config
+Lab 2/*.env
+Lab 1/.dvc/config
